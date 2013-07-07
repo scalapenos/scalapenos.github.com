@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ANNOUNCING RIAK SCALA CLIENT
+title: RIAK SCALA CLIENT
 icon: riak-scala-client
 ---
 After three months of hacking, I'm proud to announce a new Riak Scala client library based

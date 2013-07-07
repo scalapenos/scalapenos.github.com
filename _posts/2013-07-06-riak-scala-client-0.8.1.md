@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RIAK SCALA CLIENT 0.8.1
+tags: [scala, riak scala client]
 icon: riak-scala-client
 ---
 
