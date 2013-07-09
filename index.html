@@ -4,13 +4,17 @@ title: Home
 ---
 
 {% for post in site.posts %}
-<div class="row">
+<div class="row post">
   <div class="span5">
-    <h3><a href="{{ post.url }}">{{ post.title | upcase }}</a></h3>
-    <p>{{ post.date | date: "%A %B %d, %Y" }}</p>
+    <h3 class="post-title">
+      <a href="{{ post.url }}">{{ post.short-title | upcase }}</a>
+    </h3>
+    <div class="post-time">
+      {{ post.date | date: "%A %B %d, %Y" }}
+    </div>
   </div>
   <div class="span7">
-    <p>{{ post.excerpt }}</p>
+    <div class="post-excerpt">{{ post.excerpt }}</div>
   </div>
 </div>
 {% endfor %}
