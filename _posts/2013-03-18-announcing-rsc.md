@@ -1,10 +1,11 @@
 ---
 layout: post
-title: RIAK SCALA CLIENT
+title: Announcing Riak Scala Client
+short-title: Riak Scala Client
 icon: riak-scala-client
 ---
 After three months of hacking, I'm proud to announce a new Riak Scala client library based
-on Akka and Spray and simply called riak-scala-client. It aims to be easy to use,
+on Akka and Spray and simply called __riak-scala-client__. It aims to be easy to use,
 non-blocking, and fast, in that order.
 
 [http://riak.scalapenos.com/](http://riak.scalapenos.com/)
