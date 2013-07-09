@@ -1,10 +1,10 @@
 ---
 layout: main
-title: Home
+title: Blog
 ---
 
 {% for post in site.posts %}
-<div class="row post">
+<div class="row post-list-item">
   <div class="span5">
     <h3 class="post-title">
       <a href="{{ post.url }}">{{ post.short-title | upcase }}</a>

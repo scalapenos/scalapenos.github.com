@@ -51,8 +51,14 @@
       <div class="row">
         <div class="span1"></div>
 
-        <div class="span10">
+        <div class="span10 post">
+          <h3 class="post-title">{{ page.title | upcase }}</h3>
+          <div class="post-time">
+            {{ page.date | date: "%A %B %d, %Y" }}
+          </div>
+          <div>
 {{ content }}
+          </div>
         </div>
 
         <div class="span1"></div>

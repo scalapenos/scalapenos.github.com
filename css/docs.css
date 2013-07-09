@@ -15,7 +15,7 @@
   margin-top:20px;
 }
 
-.post {
+.post-list-item {
   padding: 30px 0;
   list-style: none;
   overflow: hidden;
@@ -29,6 +29,7 @@
 }
 
 .post-title a {
+  font-size: 26;
   color: #000000;
   text-decoration: none;
 }
@@ -45,6 +46,22 @@
   color: #999;
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+.post {
+
+}
+
+.post .post-title {
+  text-align: center;
+  font-size: 32pt;
+  line-height: 45px;
+  margin-top: 25px;
+}
+
+.post .post-time {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 
