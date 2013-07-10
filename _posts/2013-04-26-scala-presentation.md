@@ -4,9 +4,9 @@ title: "Presentation: Designing Scala Libraries"
 short-title: Designing Scala Libraries
 icon: riak-scala-client
 ---
-Recently I did a presentation for the [Dutch Scala Enthusiasts](http://www.meetup.com/dutch-scala-enthusiasts)
+Recently I gave a presentation for the [Dutch Scala Enthusiasts](http://www.meetup.com/dutch-scala-enthusiasts)
 about designing Scala libraries/APIs and some interesting Scala patterns and techniques I've learned
-while designing my [riak-scala-client](http://riak.scalapenos.com) library.
+while designing my __[riak-scala-client](http://riak.scalapenos.com)__ library.
 
 Here are the slides:
 
