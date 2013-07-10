@@ -8,6 +8,9 @@ Recently I gave a presentation for the [Dutch Scala Enthusiasts](http://www.meet
 about designing Scala libraries/APIs and some interesting Scala patterns and techniques I've learned
 while designing my __[riak-scala-client](http://riak.scalapenos.com)__ library.
 
+I have submitted an updated version of this talk to several Scala and non-Scala conferences
+for the second half of the year so it might be coming to a town near you!
+
 Here are the slides:
 
 <div style="text-align:center">

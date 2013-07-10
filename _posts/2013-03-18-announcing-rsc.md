@@ -20,9 +20,6 @@ features:
 - Store
 - Delete
 - Secondary Indexes (2i)
-    - Fetching exact matches
-    - Fetching ranges
-    - Storing with indexes
 - Getting/setting bucket properties
 - ping
 
@@ -30,24 +27,17 @@ Other features include:
 
 - Completely non-blocking thanks to Scala 2.10 Futures, Akka, and Spray
 - Transparent integration with Akka projects through an Akka extension
-- An untyped RiakValue class for interacting with raw Riak values and their associated
+- An untyped `RiakValue` class for interacting with raw Riak values and their associated
   meta data (vclock, etag, content type, last modified time, indexes, etc.)
-- A typed RiakMeta\[T\] class for interacting with deserialized values while retaining
+- A typed `RiakMeta\[T\]` class for interacting with deserialized values while retaining
   their associated meta data (vclock, etag, content type, last modified time, indexes, etc.)
-- Customizable conflict resolution on all fetches (and stores when returnbody=true)
+- Customizable conflict resolution on all fetches (and stores when `returnbody=true`)
 - Automatic (de)serialization of Scala (case) classes using type classes
-    - builtin spray-json (de)serializers
-- Automatic indexing of Scala (case) classes using type classes
+- Builtin default spray-json (de)serializers
+- Customizable indexing of Scala (case) classes using type classes
 - Auto-retry of fetches and stores (a standard feature of the underlying spray-client library)
 
-The following Riak (http) API features are still missing and will follow soon:
+Missing features such as link walking and Map-Reduce will be implemented
+as soon as possible.
 
-- Link walking
-- Map Reduce
-- Listing all keys in a bucket
-- Listing all buckets
-- Conditional fetch/store semantics (i.e. If-None-Match and If-Match for ETags and
-  If-Modified-Since and If-Unmodified-Since for LastModified)
-- Node Status
-
-Check it out at: http://riak.scalapenos.com/
+Check it out at: [http://riak.scalapenos.com/](http://riak.scalapenos.com/)
