@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: index
 title: Blog
 ---
 
@@ -14,7 +14,12 @@ title: Blog
     </div>
   </div>
   <div class="span7">
-    <div class="post-excerpt">{{ post.excerpt }}</div>
+    <div class="post-excerpt">
+      {{ post.excerpt }}
+      <a href="{{ post.url }}" class="post-more-link">
+        <i class="icon-double-angle-right"></i>
+      </a>
+    </div>
   </div>
 </div>
 {% endfor %}

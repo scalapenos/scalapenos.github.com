@@ -1,6 +1,8 @@
 /* Add additional stylesheets below
 -------------------------------------------------- */
 
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700);
+
 .scalapenos-logo {
   display: inline-block;
   width: 190px;
@@ -48,8 +50,31 @@
   margin-bottom: 10px;
 }
 
-.post {
+.post-excerpt {
+  font-family: "PT Serif", "Georgia", serif
+}
 
+.post-excerpt > p {
+  display: inline;
+}
+
+.post-excerpt > p a {
+  color: #000;
+}
+
+.post-excerpt a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.post-more-link {
+  margin-left: 5px;
+  color: #999;
+  font-weight: bolder;
+}
+
+.post-body {
+  font-family: "PT Serif", "Georgia", serif
 }
 
 .post .post-title {
