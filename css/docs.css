@@ -74,7 +74,8 @@
 }
 
 .post-body {
-  font-family: "PT Serif", "Georgia", serif
+  font-family: "PT Serif", "Georgia", serif;
+  margin-bottom: 50px;
 }
 
 .post .post-title {
