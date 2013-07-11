@@ -12,6 +12,13 @@ layout: nil
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
+    <image>
+      <url>http://scalapenos.com/img/scalapenos-logo-black-50.png</url>
+      <width>50</width>
+      <height>50</height>
+      <title>Scalapenos</title>
+      <link>http://scalapenos.com/</link>
+    </image>
 
     {% for post in site.posts %}
       <item>
@@ -21,6 +28,10 @@ layout: nil
         <author>Age Mooij</author>
         <guid>http://scalapenos.com{{ post.url }}</guid>
         <description>{{ post.excerpt | xml_escape }}</description>
+
+        {% for tag in post.tags %}
+        <category>{{ tag }}</category>
+        {% endfor %}
       </item>
     {% endfor %}
 
